@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurante de comida</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="img/logo.png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    </head>
+    <body>
+        <header class="cabecera">   <!-- cabesado de la pagina -->
+            <div class="container">
+                <a href="index.html" class="link-logo">
+                <img class="logo" src="img/logo.png" width="512" height="521">
+                </a>
+                <nav class="menu">
+                    <a href="index.html#lacarta">La carta</a>
+                    <a href="index.html#locales">Locales</a>
+                    <a href="nosotros.html" >Nosotros</a>
+                    <a href="contacto.html" target="_self">Contactenos</a>
+                    <a href="intranet.html" target="_blank">Intranet</a>
+                </nav>
+                <a href="#" class="hamb"> <i class="fa-solid fa-bars"></i> </a>
+            </div>  
+        </header>
+
+        <main>      <!-- cuerpo de la pagia -->
+            <section id="banner">
+                <picture>
+                    <source srcset="img/image3.png" media="(max-width: 767px)">
+                    <source srcset="img/image4.png" media="(max-width: 991px)">
+                    <img class="banner-home" src="img/banner2.png" width="1920" height="1080">
+                </picture>
+                <div class="container">
+                    <div class="fila ">
+                        <div class="columna columna-50 columna-mb-100">
+                            <h1>Lee nuestra carta</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit mollitia dignissimos sint autem libero culpa porro atque dolore explicabo quisquam.  </p>
+                            <a href="#lacarta" class="btn boton-transparente">Ver Carta</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="saltarina"><i class="fa-solid fa-chevron-down"></i></a>
+            </section> 
+            <section id="lacarta" class="seccion">
+                <div class="container">
+                    <div class="fila ">
+                        <div class="columna columna-100 centrar-texto">
+                            <h2  class="titulos">La Carta</h2>
+                        </div>
+                    </div>
+
+                    <div class="fila columna magin-arriba">
+                        <div class="columna columna-50 columna-mb-100 sin-padding orden">
+                            <div class="conteendor-cuadrado">
+                                <img src="img/image1.png">
+                                <div class="contenido-cuadrado">
+                                    <h2>Comida Boliviana</h2>
+                                    <a href="#" class="btn boton-amarillo">Ver mas</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna columna-50 columna-mb-100">
+                            <div class="fila">
+                                <div class="columna columna-50 sin-padding columna-mb-100">
+                                    <div class="conteendor-cuadrado">
+                                        <img src="img/image2.png">
+                                        <div class="contenido-cuadrado">
+                                            <h2>Comida internacional</h2>
+                                            <a href="#" class="btn boton-amarillo">Ver mas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="columna columna-50 sin-padding columna-mb-100">
+                                    <div class="conteendor-cuadrado">
+                                        <img src="img/image3.png">
+                                        <div class="contenido-cuadrado">
+                                            <h2>Mariscos</h2>
+                                            <a href="#" class="btn boton-amarillo">Ver mas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="columna columna-50 sin-padding columna-mb-100">
+                                    <div class="conteendor-cuadrado">
+                                        <img src="img/image4.png">
+                                        <div class="contenido-cuadrado">
+                                            <h2>Postres</h2>
+                                            <a href="#" class="btn boton-amarillo">Ver mas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="columna columna-50 sin-padding columna-mb-100">
+                                    <div class="conteendor-cuadrado">
+                                        <img src="img/image5.png">
+                                        <div class="contenido-cuadrado">
+                                            <h2>Bebidas</h2>
+                                            <a href="#" class="btn boton-amarillo">Ver mas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="locales" class="seccion">
+                <div class="container-full">
+                    <div class="fila fila-centrada">
+                        <div class="columna columna-50 columna-mb-100 centrar-texto">
+                            <h2  class="titulos">Locales</h2>
+                            <p class="centrar-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in ad cupiditate corporis, architecto quo possimus provident quae fuga sapiente autem inventore nesciunt laborum eius earum, officiis nemo perferendis sed!</p>
+                            <ul class="list-unstyled">
+                                <li>Limpieza</li>
+                                <li>Orden</li>
+                                <li>Servicio al cliente</li>
+                            </ul>
+                            <p class="centrar-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in ad cupiditate corporis, architecto quo possimus provident quae fuga sapiente autem inventore nesciunt laborum eius earum, officiis nemo perferendis sed!</p>
+                        </div>
+                    </div>
+                    <div class="fila magin-arriba">
+                        <div class="columna columna-50 sin-padding columna-mb-100">
+                            <div class="conteendor-cuadrado cont-rect">
+                                <img src="img/rest1.png">
+                                <div class="contenido-cuadrado">
+                                    <h2>Estela</h2>
+                                    <a href="#" class="btn-circulo borde-blanco">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna columna-50 sin-padding columna-mb-100">
+                            <div class="conteendor-cuadrado cont-rect">
+                                <img src="img/rest2.png">
+                                <div class="contenido-cuadrado">
+                                    <h2>Tatiana</h2>
+                                    <a href="#" class="btn-circulo borde-blanco">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna columna-50 sin-padding columna-mb-100">
+                            <div class="conteendor-cuadrado cont-rect">
+                                <img src="img/rest3.png">
+                                <div class="contenido-cuadrado">
+                                    <h2>Caroline</h2>
+                                    <a href="#" class="btn-circulo borde-blanco">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna columna-50 columna-mb-100 sin-padding">
+                            <div class="conteendor-cuadrado cont-rect">
+                                <img src="img/rest4.png">
+                                <div class="contenido-cuadrado">
+                                    <h2>Lety</h2>
+                                    <a href="#" class="btn-circulo borde-blanco">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicios" class="seccion">
+                <div class="container">
+                    <div class="fila fila-centrada">
+                        <div class="columna columna-100 centrar-texto">
+                            <h2  class="titulos">Servicios</h2>
+                        </div>
+                    </div>
+                    <div class="fila magin-arriba">
+                        <div class="columna columna-33 columna-mb-100">
+                            <div class="contendor-serv">
+                                <i class="fa-solid fa-motorcycle"></i>
+                                <h3>Delivery</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolore modi amet aliquamdus? Error.</p>
+                            </div>
+                        </div>
+                        <div class="columna columna-33 columna-mb-100">
+                            <div class="contendor-serv">
+                                <i class="fa-solid fa-credit-card"></i>
+                                <h3>Tarjetas de credito</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolore modi amet aliquapudiandae .</p>
+                            </div>
+                        </div>
+                        <div class="columna columna-33 columna-mb-100">
+                            <div class="contendor-serv">
+                                <i class="fa-regular fa-clock"></i>
+                                <h3>Reservas</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur dae dolore modi amet aliquam non ex ipsa brepudiandae provident .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonio" class="seccion">
+                <video class="video-fondo" src="video/restaurante.mp4" autoplay muted loop></video>
+                <div class="trama-video"></div>
+                <div class="container">
+                    <div class="fila fila-centrada">
+                        <div class="columna columna-50 columna-mb-100 centrar-texto">
+                            <h2  class="titulos">Testimonios</h2>
+                            <p class="centrar-texto inclinar--texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in ad cupiditate corporis, architecto quo possimus provident quae fuga sapiente autem inventore nesciunt laborum eius earum, officiis nemo perferendis sed!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>        <!-- pie de pagina  -->
+            <div class="prefooter">
+                <div class="container">
+                    <div class="fila ">
+                        <div class="columna columna-100">
+                            <div class="mapa">
+                                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Comidas Típicas Patujú&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pie">
+                <div class="container">
+                    <div class="fila ">
+                        <div class="columna columna-33 empujar-33 empujar-mb-0 columna-mb-100 orden lista-redes">
+                            <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="columna columna-33  columna-mb-100">
+                            &reg; Derechos reservados 2025
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </body>
+</html> 
