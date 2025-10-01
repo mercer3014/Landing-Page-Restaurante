@@ -19,21 +19,28 @@
 
 /* Scrollbar general */
 ::-webkit-scrollbar {
-    width: 0.9rem;               /* ancho de la barra */
-    height: auto;              /* alto para scroll horizontal */
+    width: 0.9rem;
+    /* ancho de la barra */
+    height: auto;
+    /* alto para scroll horizontal */
 }
 
 /* Fondo del track */
 ::-webkit-scrollbar-track {
-    background: #1e1e1e;       /* color del fondo */
-    /* border-radius: 5px;  */      /* bordes redondeados */
+    background: #1e1e1e;
+    /* color del fondo */
+    /* border-radius: 5px;  */
+    /* bordes redondeados */
 }
 
 /* Barra que se mueve */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #4caf50, #2e7d32); /* degradado verde */
-    border-radius: 5px;       /* redondeo */
-    border: 2px solid #1e1e1e; /* separa el thumb del fondo */
+    background: linear-gradient(180deg, #4caf50, #2e7d32);
+    /* degradado verde */
+    border-radius: 5px;
+    /* redondeo */
+    border: 2px solid #1e1e1e;
+    /* separa el thumb del fondo */
 }
 
 /* Hover del thumb */
@@ -246,6 +253,10 @@ footer .pie .lista-redes a {
     padding-right: 0;
 }
 
+.padding-grande {
+    padding: 4rem;
+}
+
 .conteendor-cuadrado {
     width: 100%;
     padding-bottom: 100%;
@@ -324,6 +335,10 @@ footer .pie .lista-redes a {
 
 .centrar-texto {
     text-align: center;
+}
+
+.derecha-texto {
+    text-align: right;
 }
 
 .inclinar--texto {
@@ -456,7 +471,7 @@ footer .pie .lista-redes a {
     height: 100vh;
 }
 
-#banner .banner-nosotros{
+#banner .banner-nosotros {
     height: 50vh;
 }
 
@@ -470,7 +485,7 @@ footer .pie .lista-redes a {
     object-position: center;
 }
 
-#banner .banner-nosotros .banner-home{
+#banner .banner-nosotros .banner-home {
     object-position: top;
 }
 
@@ -594,6 +609,45 @@ footer .pie .lista-redes a {
     position: relative;
 }
 
+#cocineros {}
+
+#cocineros .columna-cocinero {}
+
+#cocineros .columna-cocinero .contenedor-cosinero-imagen {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+#cocineros .columna-cocinero .contenedor-cosinero-imagen img {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#cocineros .columna-cocinero-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cocineros .columna-cocinero-info h2 {
+    color: #ffcc35;
+    margin-top: 0;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#cocineros .columna-cocinero-info p {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
 @media (min-width: 1200px) {
     /* para pantallas grandes PC */
 
@@ -706,14 +760,43 @@ footer .pie .lista-redes a {
         padding-bottom: 100%;
     }
 
+    .padding-grande {
+        padding: 2rem;
+    }
+
     #banner {}
 
     #banner .container h1 {
         font-size: 4.5rem;
     }
 
+    /* #banner .container-nosotros{
+        height: 50vh;
+    } */
+
     #servicios .contendor-serv {
         height: auto;
         margin-bottom: 1.3rem;
+    }
+
+    #cocineros .columna-cocinero-info {
+        display: block
+    }
+
+    #cocineros .columna-cocinero-info h2 {
+        font-size: 2rem;
+        ;
+    }
+    #cocineros .columna-cocinero-info p {
+        font-size: 1rem;
+        ;
+    }
+
+    #cocineros .columna-cocinero-info.derecha-texto {
+        text-align: left;
+    }
+
+    #cocineros .fila .columna-50 {
+        width: 100%;
     }
 }
